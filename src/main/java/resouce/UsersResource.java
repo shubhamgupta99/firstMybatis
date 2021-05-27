@@ -23,7 +23,7 @@ public class UsersResource {
     @GetMapping("/all")
     public void ac()
     {
-    	System.out.print("SHUBHAM");
+    	 return usersMapper.findAll();
     }
     @GetMapping("/update")
     private List<Users> update() {
